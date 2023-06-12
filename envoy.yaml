@@ -57,11 +57,11 @@ static_resources:
                         - "me.islamyakin.tech"
                       routes:
                         - match:
-                            prefix: "/tests"
+                            prefix: "/dashboards"
                           route:
                             cluster: cluster[2]
                         - match:
-                            prefix: "/participant-questions"
+                            prefix: "/sometakes"
                           route:
                             cluster: cluster[1]
                         - match:
